@@ -79,9 +79,10 @@ header { border-bottom: 1px solid var(--line) }
 .feature .text-link, .feature .text-link:hover { color: var(--on-mint) }
 .leadership { margin-top: clamp(34px, 6vw, 62px); padding: 23px 0; border-top: 1px solid var(--line) }
 .leadership h2 { font-size: clamp(1.5rem, 3vw, 2rem) }
-.leadership dl { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 20px; margin: 14px 0 0 }
+.leadership dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 20px; margin: 14px 0 0 }
 .leadership dt { color: var(--mint); font-weight: 750; font-size: clamp(1rem, 2.4vw, 1.35rem) }
 .leadership dd { margin: 3px 0 0; color: var(--muted); font-size: .94rem }
+@media (max-width: 860px) { .leadership dl { grid-template-columns: repeat(2, minmax(0, 1fr)) } }
 @media (max-width: 510px) { .leadership dl { grid-template-columns: 1fr } }
 .work { border-top: 1px solid var(--line); padding-top: 32px }
 .grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin-top: 22px }
@@ -120,8 +121,6 @@ footer { border-top: 1px solid var(--line); padding: 15px 0; font-size: .9rem; c
   .about { gap: 14px }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto } }
-.squash-note { padding-top: 18px; color: var(--muted) }
-.squash-note strong { color: var(--ink) }
 </style>
 </head>
 <body>
@@ -166,6 +165,7 @@ footer { border-top: 1px solid var(--line); padding: 15px 0; font-size: .9rem; c
 <div><dt>₹6 lakh+ budget</dt><dd>Managed funding and sponsorships for departmental events.</dd></div>
 <div><dt>60+ team members</dt><dd>Led finance and marketing for the Society of Civil Engineers.</dd></div>
 <div><dt>10,000+ eligible voters</dt><dd>Helped run digital polling as an IIT Kanpur Election Commission officer.</dd></div>
+<div id="squash"><dt>Squash Coordinator</dt><dd>Led a 45-day IIT Kanpur training camp for 15+ junior athletes. Organized practice sessions and helped players prepare for competition.</dd></div>
 </dl>
 </section>
 <section id="about" class="about" aria-labelledby="about-title">
@@ -177,9 +177,6 @@ footer { border-top: 1px solid var(--line); padding: 15px 0; font-size: .9rem; c
 <div><dt>Data &amp; ML</dt><dd>scikit-learn, PyTorch, OpenCV</dd></div>
 <div><dt>Tools &amp; databases</dt><dd>Git, MongoDB</dd></div>
 </dl></div></section>
-<section class="squash-note" id="squash" aria-labelledby="squash-label">
-<p><strong id="squash-label">Squash</strong> · I play for the IIT Kanpur squash team.</p>
-</section>
 <section class="contact" id="contact" aria-labelledby="contact-title">
 <h2 id="contact-title">Get in touch</h2><p>For internships, collaborations, or questions about my work.</p>
 <div class="actions"><a class="button primary" href="mailto:akartikey24@iitk.ac.in">Email me</a><a class="button" href="resume.html">View résumé</a><a class="button" href="https://github.com/Gewissen65">GitHub</a><a class="button" href="https://www.linkedin.com/in/kartikey-agarwal-48769b31b/">LinkedIn</a></div>
