@@ -5,7 +5,16 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Kartikey Agarwal, IIT Kanpur civil engineering undergraduate. Selected work in software, machine learning, and engineering.">
 <meta name="theme-color" content="#f5f5fb">
-<title>Kartikey Agarwal | Portfolio</title>
+<title>Kartikey Agarwal | Software, Data &amp; ML</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://gewissen65.github.io/portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gewissen65.github.io/portfolio/">
+<meta property="og:title" content="Kartikey Agarwal | Software, Data &amp; ML">
+<meta property="og:description" content="Selected software, machine learning, and engineering projects by Kartikey Agarwal at IIT Kanpur.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kartikey Agarwal | Software, Data &amp; ML">
+<meta name="twitter:description" content="Explore ConvoVerse, InvoSync, and other selected projects.">
 <style>
 :root{--paper:#f5f5fb;--white:#fff;--ink:#171633;--muted:#565570;--line:#dcdcec;--accent:#4934c6;--dark:#21194b;--radius:24px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.62 'Segoe UI',system-ui,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.05;letter-spacing:-.045em}h1{font-size:clamp(3.6rem,8.5vw,7.6rem);font-weight:750}h2{font-size:clamp(2.4rem,5vw,4rem)}h3{font-size:1.65rem}img{max-width:100%}main section[id]{scroll-margin-top:30px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:1rem;top:-8rem;z-index:2;background:#fff;padding:.5rem}.skip:focus{top:1rem}
@@ -25,6 +34,15 @@ header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;
 .contact-nav{padding:5px 10px}
 .hero{grid-template-columns:1fr;gap:26px;padding:44px 0 28px}.art{aspect-ratio:1.4/1}.fact{padding:13px 8px}.fact span{font-size:.8rem}.fact strong{font-size:.92rem}.facts{margin-bottom:48px}.grid,.campus,.about{grid-template-columns:1fr}.section-head{display:block}.section-head p:last-child:not(.eyebrow){margin-top:11px}.campus,.about{margin-top:52px}.about{gap:17px}.bottom{padding-top:46px}.project-body{padding:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.section-head h2,.featured h3,.about h2{text-wrap:balance}
+.featured{margin-bottom:18px;padding:clamp(22px,4vw,40px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);align-items:center;gap:26px;background:var(--dark);color:#fff;border-radius:var(--radius)}
+.featured .kind{color:#d0c5ff}.featured h3{font-size:clamp(2.2rem,5vw,3.7rem)}.featured .description{color:#efeafb;max-width:55ch}.featured .button{min-height:44px;color:#fff;border-color:#b9aae6}.featured .button:hover{background:#3e316f}.featured .button.primary{background:#fff;color:#311f75}.featured .button.primary:hover{background:#eee7ff}.featured a:focus-visible{outline-color:#fff}
+.featured-data{margin:0;border-left:1px solid #b9aae673;padding-left:26px}.featured-data dt{font-size:clamp(1.4rem,3vw,2rem);font-weight:750;letter-spacing:-.035em}.featured-data dd{margin:0 0 12px;color:#efeafb}.featured-data dd:last-child{margin-bottom:0}
+.project-shot{margin:0;background:#ded8ff}.project-shot img{display:block;width:100%;height:135px;object-fit:cover;object-position:top}
+.project details{margin-top:14px;color:var(--muted);font-size:.92rem}.project summary{cursor:pointer;min-height:44px;padding-block:10px;font-weight:700;color:var(--ink)}.project details p{margin:0 0 8px}
+.skills-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 22px;margin:18px 0 0}.skills-groups dt{font-weight:700}.skills-groups dd{margin:4px 0 0;color:var(--muted)}
+.squash{align-self:start;gap:23px}
+@media(max-width:660px){.featured{grid-template-columns:1fr}.featured-data{border-left:0;border-top:1px solid #b9aae673;padding:12px 0 0}.fact strong{font-size:1rem}}
 </style>
 </head>
 <body>
@@ -32,21 +50,31 @@ header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;
 <header id="top"><nav class="nav wrap" aria-label="Main"><a class="brand" href="#top" aria-label="Kartikey Agarwal home"><span class="logo" aria-hidden="true">KA</span><span class="brand-name">Kartikey Agarwal</span></a><div class="nav-links"><a class="nav-link" href="#work">Projects</a><a class="nav-link" href="#campus">Campus</a><a class="nav-link" href="#about">About</a><a class="nav-link contact-nav" href="#contact">Contact</a></div></nav></header>
 <main id="main" class="wrap">
 <section class="hero" aria-labelledby="name"><div>
-<p class="eyebrow">Civil Engineering · IIT Kanpur</p>
+<p class="eyebrow">Software, Data &amp; ML · IIT Kanpur</p>
 <h1 id="name">Kartikey <span>Agarwal</span></h1>
-<p class="lede">I’m a third-year undergraduate building web applications and exploring machine learning through projects in computer vision and environmental forecasting.</p>
-<div class="actions"><a class="button primary" href="#work">Explore my projects</a><a class="button" href="https://github.com/Gewissen65">GitHub</a></div>
+<p class="lede">I build web applications and machine learning projects at IIT Kanpur, from multilingual video calls to computer vision and air-quality forecasting.</p>
+<div class="actions"><a class="button primary" href="#work">Explore my projects</a><a class="button" href="resume.html">View résumé</a></div>
 </div><div class="art" aria-hidden="true"><canvas id="contours"></canvas><span class="art-label">Software · Data · Engineering</span></div></section>
-<div class="facts" aria-label="At a glance"><div class="fact"><strong>B.Tech</strong><span>Civil Engineering</span></div><div class="fact"><strong>60+ members</strong><span>SoCE team</span></div><div class="fact"><strong>Squash gold</strong><span>Racquethlon ’25</span></div></div>
+<div class="facts" aria-label="At a glance">
+<div class="fact"><strong>93.5% accuracy</strong><span>GanForge face-mask classifier</span></div>
+<div class="fact"><strong>10,000+ voters</strong><span>IIT Kanpur digital polling</span></div>
+<div class="fact"><strong>₹6 lakh+</strong><span>Society of Civil Engineers budget</span></div>
+</div>
 <section id="work" aria-labelledby="work-title">
-<div class="section-head"><div><h2 id="work-title">Selected projects</h2></div><p>From billing and event platforms to forecasting models and a working rover prototype.</p></div>
+<div class="section-head"><div><h2 id="work-title">Selected projects</h2></div></div>
+<article class="featured" aria-labelledby="convoverse-title">
+<div><p class="kind">Real-time video and speech translation</p><h3 id="convoverse-title">ConvoVerse</h3>
+<p class="description">A video meeting app where each participant can choose the language they hear. ConvoVerse streams translated captions first, then plays synthesized speech when the audio is ready.</p>
+<div class="actions"><a class="button primary" href="https://convoverse-ee0u.onrender.com/">Open hosted app</a><a class="button" href="https://github.com/Gewissen65/ConvoVerse">View source</a></div></div>
+<dl class="featured-data"><dt>10 languages</dt><dd>Each listener chooses their own.</dd><dt>WebRTC + FastAPI</dt><dd>Browser calls and real-time updates.</dd></dl>
+</article>
 <div class="grid">
-<article class="project"><div class="artwork invoice" aria-hidden="true"><span>₹ · PDF</span></div><div class="project-body"><p class="kind">Full-stack application</p><h3>InvoSync</h3><p class="description">Built a billing platform for small businesses with configurable taxes and discounts, invoice exports, QR-coded payments, and revenue dashboards.</p><ul class="tags"><li>Billing</li><li>Analytics</li><li>PDF &amp; CSV</li></ul><a class="text-link" href="https://github.com/Gewissen65/InvoSync">InvoSync source</a></div></article>
-<article class="project"><div class="artwork events" aria-hidden="true"><span>▥▥▥</span></div><div class="project-body"><p class="kind">Backend development</p><h3>NeXa.ai</h3><p class="description">Built event creation, ticketing, and attendee tracking workflows with role-based access, Stripe payments, and automated receipts.</p><ul class="tags"><li>Express.js</li><li>MongoDB</li><li>Stripe</li></ul><a class="text-link" href="https://github.com/Gewissen65/NeXa.ai">NeXa.ai source</a></div></article>
+<article class="project"><div class="artwork invoice" aria-hidden="true"><span>₹ · PDF</span></div><div class="project-body"><p class="kind">Full-stack application</p><h3>InvoSync</h3><p class="description">I built a billing app that takes small businesses from creating an invoice to tracking its payment. It generates PDF and CSV exports, adds QR links to invoices, and shows outstanding payments in a dashboard.</p><ul class="tags"><li>React</li><li>Next.js</li><li>MongoDB</li></ul><a class="text-link" href="https://github.com/Gewissen65/InvoSync">InvoSync source</a></div></article>
+<article class="project"><figure class="project-shot"><img src="assets/nexa-landing.png" alt="Screenshot of the NeXa.ai event platform landing page" width="1732" height="882" loading="lazy" decoding="async"></figure><div class="project-body"><p class="kind">Backend development</p><h3>NeXa.ai</h3><p class="description">I worked on event management workflows for organizers and attendees, from publishing an event to booking a ticket, taking payment, and sending a receipt.</p><ul class="tags"><li>Express.js</li><li>MongoDB</li><li>Stripe</li></ul><a class="text-link" href="https://github.com/Gewissen65/NeXa.ai">NeXa.ai source</a></div></article>
 <article class="project"><div class="artwork vision" aria-hidden="true"><span>93.5%</span></div><div class="project-body"><p class="kind">Computer vision</p><h3>GanForge</h3><p class="description">Achieved 93.5% accuracy on a face-mask classifier using transfer learning. Also built object detection, image similarity search, and generative image pipelines.</p><ul class="tags"><li>InceptionV3</li><li>YOLOv5</li><li>OpenCV</li></ul><a class="text-link" href="https://github.com/Gewissen65/GanForge">GanForge source</a></div></article>
 <article class="project"><div class="artwork db" aria-hidden="true"><span>SELECT</span></div><div class="project-body"><p class="kind">Database design</p><h3>QueryQuest</h3><p class="description">Designed normalized relational schemas for hospital management and quick commerce. Explored indexing, query optimization, and transaction handling.</p><ul class="tags"><li>SQL</li><li>ER modeling</li><li>B+ trees</li></ul><a class="text-link" href="https://github.com/Gewissen65/QueryQuest">QueryQuest source</a></div></article>
-<article class="project"><div class="artwork air" aria-hidden="true"><span>PM₂.₅</span></div><div class="project-body"><p class="kind">Machine learning mentorship</p><h3>Air Quality Forecasting</h3><p class="description">Mentor a team forecasting PM₂.₅ with station, satellite, and weather data. Guide geospatial preprocessing and model validation across locations.</p><ul class="tags"><li>Geospatial data</li><li>XGBoost</li><li>LSTM</li></ul></div></article>
-<article class="project"><div class="artwork rover" aria-hidden="true"><span>CAD</span></div><div class="project-body"><p class="kind">Engineering prototype</p><h3>TerraClimb</h3><p class="description">Worked on a tracked, Bluetooth-controlled rover that carries payloads up stairs. Used CAD and prototype testing to refine the chassis and weight distribution.</p><ul class="tags"><li>CAD</li><li>Mechanisms</li><li>Prototyping</li></ul></div></article>
+<article class="project"><div class="artwork air" aria-hidden="true"><span>PM₂.₅</span></div><div class="project-body"><p class="kind">Machine learning mentorship</p><h3>Air Quality Forecasting</h3><p class="description">I mentor the team on aligning station readings with satellite and weather data and testing how well forecasts transfer to other locations.</p><ul class="tags"><li>Geospatial data</li><li>XGBoost</li><li>LSTM</li></ul><details><summary>How the team evaluates forecasts</summary><p>The team compares models on held-out locations and tracks MAE, RMSE, and R². The dashboard is designed to show forecasts and pollution hotspots for cities outside the training set.</p></details></div></article>
+<article class="project"><div class="artwork rover" aria-hidden="true"><span>CAD</span></div><div class="project-body"><p class="kind">Engineering prototype</p><h3>TerraClimb</h3><p class="description">For a manufacturing course, I designed mechanical components in CAD and worked on Bluetooth controls for a tracked rover. We tested the fabricated prototype on stairs and refined the chassis and weight distribution.</p><ul class="tags"><li>CAD</li><li>Mechanisms</li><li>Prototyping</li></ul><details><summary>What I worked on</summary><p>I analyzed power transmission and helped select shafts and bearings for the tracked drive.</p></details></div></article>
 </div></section>
 <section class="campus" id="campus" aria-labelledby="campus-title"><div>
 <h2 id="campus-title">Campus leadership</h2>
@@ -55,8 +83,15 @@ header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;
 <article class="role"><h3>Project Mentor · Society of Civil Engineers</h3><p>Teach Python and machine learning through hands-on sessions, weekly assignments, and end-to-end modeling projects.</p></article>
 </div><aside class="squash" aria-labelledby="squash-title"><div><h2 id="squash-title">Squash</h2><p>As IIT Kanpur’s Squash Coordinator, I led a 45-day training camp for 15+ junior athletes.</p></div><ul><li><strong>Represented IIT Kanpur</strong> at IIT Delhi and IIT Roorkee</li><li><strong>Gold</strong> at Racquethlon ’25</li><li><strong>Top four</strong> at Udghosh ’25</li></ul></aside>
 </section>
-<section id="about" class="about" aria-labelledby="about-title"><div><h2 id="about-title">About me</h2></div><div><p>I’m pursuing a B.Tech in Civil Engineering at IIT Kanpur. I’m interested in how software and data can help solve engineering problems, from predicting air quality to designing better tools for everyday workflows.</p><ul class="tags" aria-label="Technical skills"><li>Python</li><li>C++</li><li>JavaScript</li><li>SQL</li><li>React</li><li>Node.js</li><li>scikit-learn</li><li>PyTorch</li><li>OpenCV</li><li>Git</li></ul></div></section>
-<section class="bottom" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Get in touch</h2><p>For internships, project collaborations, or questions about my work.</p><div class="actions"><a class="button primary" href="mailto:akartikey24@iitk.ac.in">Email me</a><a class="button" href="https://www.linkedin.com/in/kartikey-agarwal-48769b31b/">LinkedIn</a><a class="button" href="https://github.com/Gewissen65">GitHub</a></div></section>
+<section id="about" class="about" aria-labelledby="about-title"><div><h2 id="about-title">About me</h2></div><div>
+<p>I’m pursuing a B.Tech in Civil Engineering at IIT Kanpur. Coursework in applied probability and statistics, linear algebra, and computing informs my work on software and data projects.</p>
+<dl class="skills-groups" aria-label="Technical skills">
+<div><dt>Languages</dt><dd>Python, C++, JavaScript, SQL</dd></div>
+<div><dt>Web</dt><dd>React, Next.js, Node.js, Express</dd></div>
+<div><dt>Data &amp; ML</dt><dd>scikit-learn, PyTorch, OpenCV</dd></div>
+<div><dt>Tools &amp; databases</dt><dd>Git, MongoDB</dd></div>
+</dl></div></section>
+<section class="bottom" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Get in touch</h2><p>For internships, project collaborations, or questions about my work.</p><div class="actions"><a class="button primary" href="mailto:akartikey24@iitk.ac.in">Email me</a><a class="button" href="resume.html">View résumé</a><a class="button" href="https://www.linkedin.com/in/kartikey-agarwal-48769b31b/">LinkedIn</a><a class="button" href="https://github.com/Gewissen65">GitHub</a></div></section>
 </main><footer class="signature"><div class="wrap">Kartikey Agarwal · IIT Kanpur</div></footer>
 <script>
 const canvas = document.querySelector('#contours');
@@ -97,7 +132,14 @@ function drawContours() {
 }
 if (ctx) {
   drawContours();
-  window.addEventListener('resize', drawContours);
+  let frame = 0;
+  window.addEventListener('resize', () => {
+    if (frame) return;
+    frame = requestAnimationFrame(() => {
+      frame = 0;
+      drawContours();
+    });
+  });
 }
 </script>
 </body>
