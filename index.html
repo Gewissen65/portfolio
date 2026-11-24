@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Kartikey Agarwal, IIT Kanpur civil engineering undergraduate. Selected work in software, machine learning, and engineering.">
+<meta name="theme-color" content="#f5f5fb">
+<title>Kartikey Agarwal | Portfolio</title>
+<style>
+:root{--paper:#f5f5fb;--white:#fff;--ink:#171633;--muted:#565570;--line:#dcdcec;--accent:#4934c6;--dark:#21194b;--radius:24px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.62 'Segoe UI',system-ui,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid #a58ff5;outline-offset:5px}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.05;letter-spacing:-.045em}h1{font-size:clamp(3.6rem,8.5vw,7.6rem);font-weight:750}h2{font-size:clamp(2.4rem,5vw,4rem)}h3{font-size:1.65rem}img{max-width:100%}main section[id]{scroll-margin-top:30px}.wrap{width:min(1200px,calc(100% - 80px));margin:auto}.skip{position:absolute;left:1rem;top:-8rem;z-index:2;background:#fff;padding:.5rem}.skip:focus{top:1rem}
+header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:78px}.brand,.nav-link{text-decoration:none;font-weight:650}.brand{display:flex;gap:10px;align-items:center}.logo{display:grid;place-items:center;width:36px;height:36px;border-radius:11px;background:var(--accent);color:#fff;font-size:.82rem;letter-spacing:-.04em}.nav-links{display:flex;align-items:center;gap:clamp(14px,3vw,38px);font-size:.92rem}.nav-link:hover,.text-link:hover{color:var(--accent)}.contact-nav{border:1px solid #c8c2ef;padding:7px 14px;border-radius:99px;color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.13fr .87fr;gap:clamp(28px,5vw,75px);align-items:center;padding:76px 0 52px}.eyebrow{font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:760;margin:0 0 16px}.hero h1 span{display:block;color:var(--accent)}.lede{max-width:530px;margin-top:24px;color:var(--muted);font-size:clamp(1.05rem,1.5vw,1.25rem)}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-flex;align-items:center;justify-content:center;padding:11px 19px;text-decoration:none;border:1px solid #c8c2ef;border-radius:11px;font-weight:700;color:var(--accent)}.button:hover{background:#ebe7fc}.button.primary{background:var(--accent);color:white;border-color:var(--accent)}.button.primary:hover{background:#3826aa}
+.art{position:relative;min-width:0;border-radius:30px;overflow:hidden;aspect-ratio:1/1;background:#21194b;isolation:isolate;box-shadow:0 20px 48px #35228629}.art canvas{display:block;width:100%;height:100%;position:absolute;inset:0}.art-label{position:absolute;left:22px;bottom:18px;color:#fff;font-size:.8rem;letter-spacing:.1em;font-weight:650;text-transform:uppercase}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);margin-bottom:82px}.fact{padding:21px 22px}.fact:first-child{padding-left:0}.fact+.fact{border-left:1px solid var(--line)}.fact strong{display:block;font-size:clamp(1.02rem,2.1vw,1.48rem);line-height:1.25;letter-spacing:-.025em}.fact span{font-size:.88rem;color:var(--muted)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:27px}.section-head p:last-child:not(.eyebrow){color:var(--muted);max-width:410px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.project{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.artwork{height:135px;overflow:hidden;display:grid;place-items:center;position:relative;background-color:var(--tile);background-image:radial-gradient(var(--dot) 1px,transparent 1px);background-size:16px 16px}.artwork span{display:grid;place-items:center;min-width:100px;height:62px;padding:0 12px;transform:rotate(-7deg);border:1px solid #ffffff7d;border-radius:14px;background:#ffffffa6;box-shadow:6px 7px 0 var(--dot);font:700 1.2rem/1 ui-monospace,monospace;color:var(--artink);letter-spacing:-.07em}.invoice{--tile:#ded8ff;--dot:#b4a4f2;--artink:#3c249b}.events{--tile:#cdeff6;--dot:#8cc5d8;--artink:#185269}.vision{--tile:#ffded4;--dot:#efa994;--artink:#8b3527}.db{--tile:#dce9ff;--dot:#9cb6e9;--artink:#213e85}.air{--tile:#d8f4e8;--dot:#96d7bf;--artink:#205c49}.rover{--tile:#eee0f8;--dot:#cca8e5;--artink:#542379}.project-body{padding:23px;display:flex;flex-direction:column;flex:1}.kind{font-size:.78rem;color:var(--accent);font-weight:760;letter-spacing:.09em;text-transform:uppercase;margin-bottom:9px}.description{color:var(--muted);margin:12px 0 17px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:auto 0 0;padding:0;list-style:none}.tags li{background:#f0edf9;border-radius:6px;padding:3px 8px;color:#463977;font-size:.80rem}.text-link{margin-top:16px;align-self:flex-start;font-size:.91rem;font-weight:700;text-underline-offset:4px}
+.campus{margin-top:90px;display:grid;grid-template-columns:1.13fr .87fr;gap:22px}.campus h2{margin-bottom:28px}.role{border-top:1px solid var(--line);padding:18px 5px 18px 0}.role:last-child{border-bottom:1px solid var(--line)}.role h3{font-size:1.17rem;letter-spacing:-.02em}.role p{margin-top:5px;color:var(--muted)}.squash{align-self:stretch;display:flex;flex-direction:column;justify-content:space-between;gap:36px;background:var(--dark);color:white;border-radius:var(--radius);padding:clamp(25px,4vw,44px);overflow:hidden;position:relative;background-image:linear-gradient(135deg,#201845 40%,#38247c 100%)}.squash .eyebrow{color:#c3b6ff}.squash h2{margin-bottom:13px}.squash p:not(.eyebrow){color:#e0d9fb}.squash ul{margin:0;padding:0;list-style:none}.squash li{border-top:1px solid #cfc2ff54;padding:11px 0}.squash li strong{display:inline-block;padding-right:.35em}
+.about{display:grid;grid-template-columns:.75fr 1.25fr;gap:36px;padding:38px 0;border-block:1px solid var(--line);margin-top:78px}.about p:not(.eyebrow){color:var(--muted);margin-bottom:16px}.about .tags{margin-top:4px}.bottom{padding:65px 0 42px}.bottom>p:not(.eyebrow){color:var(--muted);margin-top:12px}.signature{padding:17px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+@media(max-width:900px){.wrap{width:calc(100% - 48px)}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero{padding-top:54px}h1{font-size:clamp(3.4rem,9vw,6rem)}.facts{margin-bottom:63px}}
+@media(max-width:660px){.wrap{width:calc(100% - 32px)}.nav{min-height:66px;gap:12px}.brand-name{display:none}.nav-links{gap:11px;font-size:.82rem}.contact-nav{padding:5px 10px}.hero{grid-template-columns:1fr;gap:26px;padding:44px 0 28px}.art{aspect-ratio:1.4/1}.fact{padding:13px 8px}.fact span{font-size:.8rem}.fact strong{font-size:.92rem}.facts{margin-bottom:48px}.grid,.campus,.about{grid-template-columns:1fr}.section-head{display:block}.section-head p:last-child:not(.eyebrow){margin-top:11px}.campus,.about{margin-top:52px}.about{gap:17px}.bottom{padding-top:46px}.project-body{padding:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header id="top"><nav class="nav wrap" aria-label="Main"><a class="brand" href="#top" aria-label="Kartikey Agarwal home"><span class="logo" aria-hidden="true">KA</span><span class="brand-name">Kartikey Agarwal</span></a><div class="nav-links"><a class="nav-link" href="#work">Projects</a><a class="nav-link" href="#campus">Campus</a><a class="nav-link" href="#about">About</a><a class="nav-link contact-nav" href="#contact">Contact</a></div></nav></header>
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="name"><div>
+<p class="eyebrow">Civil Engineering � IIT Kanpur</p>
+<h1 id="name">Kartikey <span>Agarwal</span></h1>
+<p class="lede">I'm a third-year undergraduate building web applications and exploring machine learning through projects in computer vision and environmental forecasting.</p>
+<div class="actions"><a class="button primary" href="#work">Explore my projects</a><a class="button" href="https://github.com/Gewissen65">GitHub</a></div>
+</div><div class="art" aria-hidden="true"><canvas id="contours"></canvas><span class="art-label">Software � Data � Engineering</span></div></section>
+<div class="facts" aria-label="At a glance"><div class="fact"><strong>B.Tech</strong><span>Civil Engineering</span></div><div class="fact"><strong>60+ members</strong><span>SoCE team</span></div><div class="fact"><strong>Squash gold</strong><span>Racquethlon '25</span></div></div>
+<section id="work" aria-labelledby="work-title">
+<div class="section-head"><div><h2 id="work-title">Selected projects</h2></div><p>From billing and event platforms to forecasting models and a working rover prototype.</p></div>
+<div class="grid">
+<article class="project"><div class="artwork invoice" aria-hidden="true"><span>? � PDF</span></div><div class="project-body"><p class="kind">Full-stack application</p><h3>InvoSync</h3><p class="description">Built a billing platform for small businesses with configurable taxes and discounts, invoice exports, QR-coded payments, and revenue dashboards.</p><ul class="tags"><li>Billing</li><li>Analytics</li><li>PDF &amp; CSV</li></ul><a class="text-link" href="https://github.com/Gewissen65/InvoSync">InvoSync source</a></div></article>
+<article class="project"><div class="artwork events" aria-hidden="true"><span>???</span></div><div class="project-body"><p class="kind">Backend development</p><h3>NeXa.ai</h3><p class="description">Built event creation, ticketing, and attendee tracking workflows with role-based access, Stripe payments, and automated receipts.</p><ul class="tags"><li>Express.js</li><li>MongoDB</li><li>Stripe</li></ul><a class="text-link" href="https://github.com/Gewissen65/NeXa.ai">NeXa.ai source</a></div></article>
+<article class="project"><div class="artwork vision" aria-hidden="true"><span>93.5%</span></div><div class="project-body"><p class="kind">Computer vision</p><h3>GanForge</h3><p class="description">Achieved 93.5% accuracy on a face-mask classifier using transfer learning. Also built object detection, image similarity search, and generative image pipelines.</p><ul class="tags"><li>InceptionV3</li><li>YOLOv5</li><li>OpenCV</li></ul><a class="text-link" href="https://github.com/Gewissen65/GanForge">GanForge source</a></div></article>
+<article class="project"><div class="artwork db" aria-hidden="true"><span>SELECT</span></div><div class="project-body"><p class="kind">Database design</p><h3>QueryQuest</h3><p class="description">Designed normalized relational schemas for hospital management and quick commerce. Explored indexing, query optimization, and transaction handling.</p><ul class="tags"><li>SQL</li><li>ER modeling</li><li>B+ trees</li></ul><a class="text-link" href="https://github.com/Gewissen65/QueryQuest">QueryQuest source</a></div></article>
+<article class="project"><div class="artwork air" aria-hidden="true"><span>PM2.5</span></div><div class="project-body"><p class="kind">Machine learning mentorship</p><h3>Air Quality Forecasting</h3><p class="description">Mentor a team forecasting PM2.5 with station, satellite, and weather data. Guide geospatial preprocessing and model validation across locations.</p><ul class="tags"><li>Geospatial data</li><li>XGBoost</li><li>LSTM</li></ul></div></article>
+<article class="project"><div class="artwork rover" aria-hidden="true"><span>CAD</span></div><div class="project-body"><p class="kind">Engineering prototype</p><h3>TerraClimb</h3><p class="description">Worked on a tracked, Bluetooth-controlled rover that carries payloads up stairs. Used CAD and prototype testing to refine the chassis and weight distribution.</p><ul class="tags"><li>CAD</li><li>Mechanisms</li><li>Prototyping</li></ul></div></article>
+</div></section>
+<section class="campus" id="campus" aria-labelledby="campus-title"><div>
+<h2 id="campus-title">Campus leadership</h2>
+<article class="role"><h3>Finance &amp; Marketing Manager � Society of Civil Engineers</h3><p>Manage a 60+ member team and a budget exceeding ?6 lakh, including sponsorships, publicity, and events such as Sankalan.</p></article>
+<article class="role"><h3>Senior Executive Officer � Election Commission</h3><p>Led 80+ volunteers and helped administer digital polling for more than 10,000 eligible voters at IIT Kanpur.</p></article>
+<article class="role"><h3>Project Mentor � Society of Civil Engineers</h3><p>Teach Python and machine learning through hands-on sessions, weekly assignments, and end-to-end modeling projects.</p></article>
+</div><aside class="squash" aria-labelledby="squash-title"><div><h2 id="squash-title">Squash</h2><p>As IIT Kanpur's Squash Coordinator, I led a 45-day training camp for 15+ junior athletes.</p></div><ul><li><strong>Represented IIT Kanpur</strong> at IIT Delhi and IIT Roorkee</li><li><strong>Gold</strong> at Racquethlon '25</li><li><strong>Top four</strong> at Udghosh '25</li></ul></aside>
+</section>
+<section id="about" class="about" aria-labelledby="about-title"><div><h2 id="about-title">About me</h2></div><div><p>I'm pursuing a B.Tech in Civil Engineering at IIT Kanpur. I'm interested in how software and data can help solve engineering problems, from predicting air quality to designing better tools for everyday workflows.</p><ul class="tags" aria-label="Technical skills"><li>Python</li><li>C++</li><li>JavaScript</li><li>SQL</li><li>React</li><li>Node.js</li><li>scikit-learn</li><li>PyTorch</li><li>OpenCV</li><li>Git</li></ul></div></section>
+<section class="bottom" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Get in touch</h2><p>For internships, project collaborations, or questions about my work.</p><div class="actions"><a class="button primary" href="mailto:akartikey24@iitk.ac.in">Email me</a><a class="button" href="https://www.linkedin.com/in/kartikey-agarwal-48769b31b/">LinkedIn</a><a class="button" href="https://github.com/Gewissen65">GitHub</a></div></section>
+</main><footer class="signature"><div class="wrap">Kartikey Agarwal � IIT Kanpur</div></footer>
+<script>
+const canvas = document.querySelector('#contours');
+const ctx = canvas.getContext('2d');
+function drawContours() {
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
+  const pixelRatio = Math.min(devicePixelRatio || 1, 2);
+  canvas.width = width * pixelRatio;
+  canvas.height = height * pixelRatio;
+  ctx.scale(pixelRatio, pixelRatio);
+  const glow = ctx.createRadialGradient(width * .64, height * .39, 0, width * .52, height * .53, width * .76);
+  glow.addColorStop(0, '#593cb7');
+  glow.addColorStop(1, '#1b133f');
+  ctx.fillStyle = glow;
+  ctx.fillRect(0, 0, width, height);
+  ctx.fillStyle = '#c5afff66';
+  for (let x = 16; x < width; x += 21) {
+    for (let y = 16; y < height; y += 21) ctx.fillRect(x, y, 1.15, 1.15);
+  }
+  const size = Math.min(width, height);
+  for (let ring = 0; ring < 27; ring++) {
+    const radius = size * (.05 + ring * .018);
+    ctx.beginPath();
+    for (let step = 0; step <= 240; step++) {
+      const angle = step * Math.PI / 120;
+      const wave = radius * (1 + .14 * Math.sin(3 * angle + ring * .045) + .1 * Math.cos(5 * angle - ring * .075));
+      const x = width * .54 + Math.cos(angle) * wave * 1.15 + ring * size * .003;
+      const y = height * .48 + Math.sin(angle) * wave * .74 - Math.cos(angle) * size * .12;
+      if (step === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = ring % 5 === 0 ? '#e7daffdf' : '#bd9cff86';
+    ctx.lineWidth = ring % 5 === 0 ? 1.45 : .8;
+    ctx.stroke();
+  }
+}
+if (ctx) {
+  drawContours();
+  window.addEventListener('resize', drawContours);
+}
+</script>
+</body>
+</html>
+
+
